@@ -1,0 +1,29 @@
+.container-header{
+    background-image: url(https://i.ibb.co/720mTnh/fondo-header.png);
+    background-position:center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.image-header{
+    height: 250px;
+    margin-top: 10px;
+}
+
+.menu{
+    background-color: #9ccfe0;
+    border-radius: 10px;
+}
+.nosotros{
+    background-color: #ffb154;
+    border-radius: 10px;
+}
+.contacto{
+    background-color: #fce2e4;
+    border-radius: 10px;
+}
+
+.nav-item{
+    padding: 10px;
+}
