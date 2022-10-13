@@ -12,14 +12,14 @@ const FooterApp = () => {
             className="w-50"
           />
         </div>
-        <div className="col-sm-12 col-md-4 text-light col-responsive">
+        <div className="col-sm-12 col-md-4 text-dark col-responsive">
           <h5>Horarios de atencion:</h5>
           <p className="my-4">
             Lunes a viernes: 09 hs- 18 hs <br />
             Sabado, Domingo y feriados: 09 hs- 14hs
           </p>
         </div>
-        <div className="col-sm-12 col-md-4 text-light col-responsive">
+        <div className="col-sm-12 col-md-4 text-dark col-responsive">
           <h5>Seguinos en nuestras redes:</h5>
           <div className="social-container">
             <a href="https://m.facebook.com/?locale=es_LA&_rdr" className="a">

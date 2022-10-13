@@ -1,9 +1,4 @@
 .container-header{
-    background-image: url(https://i.ibb.co/720mTnh/fondo-header.png);
-    background-position:center center;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
     text-align: center;
 }
 .image-header{
@@ -19,8 +14,12 @@
     background-color: #ffb154;
     border-radius: 10px;
 }
+.servicio{
+    background-color: #e1a6f6;
+    border-radius: 10px;
+}
 .contacto{
-    background-color: #fce2e4;
+    background-color: #FABEC0;
     border-radius: 10px;
 }
 

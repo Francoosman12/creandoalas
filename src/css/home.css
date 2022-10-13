@@ -1,3 +1,73 @@
-.container-home{
-    height: 100%;
+.carousel-home{
+    border: 10px solid white;
+    height: 70vh;
 }
+.carousel-inner{
+    height: 100%;
+    background-position:center center;
+    background-attachment: fixed;
+    background-size:auto;
+}
+.carousel-caption{
+    margin-bottom: 50px;
+}
+.image-carousel{
+    height: 67vh;
+    width: 100%;
+}
+
+.titulo{
+    background-color: #9ccfe0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 0 20px;
+}
+
+.presentacion{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.titulo-servicio{
+    background-color: #ffb154;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 0 20px;
+}
+
+.accordion{
+    margin: 15px 30px;
+}
+.icon-acordeon{
+    padding-right: 15px ;
+}
+
+.titulo-contacto{
+    background-color: #FABEC0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 0 20px;
+}
+
+.form-contacto{
+    width: 67%;
+}
+.form-label{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FABEC0;
+}
+@media screen and (max-width: 650px) {
+    .image-carousel{
+        height: 300px;
+    }
+    .carousel-home{
+        height: 48vh;
+    }
+  }

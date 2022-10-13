@@ -16,7 +16,7 @@ const Header = () => {
       <nav class="navbar navbar-expand-lg mt-3">
         <div class="container-fluid">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler col-12"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -32,17 +32,31 @@ const Header = () => {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <NavLink className="nav-link menu" to="/">
+                <NavLink className="nav-link menu text-light" to="/">
                   Menu
                 </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink className="nav-link nosotros" to="/nosotros">
+                <NavLink
+                  className="nav-link nosotros text-light"
+                  to="/nosotros"
+                >
                   Nosotros
                 </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink className="nav-link contacto" to="/contacto">
+                <NavLink
+                  className="nav-link servicio text-light"
+                  to="/servicio"
+                >
+                  Servicio
+                </NavLink>
+              </li>
+              <li class="nav-item">
+                <NavLink
+                  className="nav-link contacto text-light"
+                  to="/contacto"
+                >
                   Contacto
                 </NavLink>
               </li>
