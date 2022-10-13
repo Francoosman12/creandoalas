@@ -1,6 +1,6 @@
 .carousel-home{
-    border: 10px solid white;
-    height: 70vh;
+    /* border: 10px solid white; */
+    margin: 0 10px;
 }
 .carousel-inner{
     height: 100%;
@@ -12,8 +12,11 @@
     margin-bottom: 50px;
 }
 .image-carousel{
-    height: 67vh;
+    border: 10px solid white;
     width: 100%;
+    background-position:center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .titulo{
@@ -65,9 +68,10 @@
 }
 @media screen and (max-width: 650px) {
     .image-carousel{
-        height: 300px;
+        height: 100%;
+        border: 10px solid white;
     }
     .carousel-home{
-        height: 48vh;
+        height: 100%;
     }
   }
