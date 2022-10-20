@@ -64,7 +64,7 @@
 .form-label{
     border-radius: 5px;
     padding: 5px;
-    background-color: #FABEC0;
+    /* background-color: #FABEC0; */
 }
 @media screen and (max-width: 650px) {
     .image-carousel{

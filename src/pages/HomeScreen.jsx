@@ -1,4 +1,8 @@
 import "../css/home.css";
+// import Map from "../js/Map";
+import MapKey from "../js/MapKey";
+
+// const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${MapKey.mapsKey}`;
 
 const HomeScreen = () => {
   return (
@@ -119,6 +123,39 @@ const HomeScreen = () => {
           <div className="col-12">
             <div className="titulo">
               <h1>¿Quienes somos?</h1>
+            </div>
+            <div className="descripcion-quienessomos">
+              <div className="row justify-content-center">
+                <div className="col-10">
+                  <div class="shadow p-3 mt-5 mb-1 bg-body rounded">
+                    ¿QUIENES SOMOS? 🦋 Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Inventore reiciendis consequuntur
+                    quibusdam non tenetur vero explicabo veniam totam. Hic
+                    obcaecati inventore maxime nisi nulla illum doloremque
+                    provident ipsa velit doloribus!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="descripcion-surge">
+              <div className="row justify-content-center">
+                <div className="col-10">
+                  <div class="shadow p-3 mt-5 mb-5 bg-body rounded">
+                    ¿COMO SURGE CREANDO ALAS? 🦋 Creando Alas surge desde el
+                    anhelo del corazón de cada una de nosotras. De a poquito,
+                    con esfuerzo, comunicación y pequeños pasos pero firmes es
+                    que este proyecto fue tomando forma y constituyendose en un
+                    espacio particular y pensado para que en él, tanto nuestros
+                    alumnos como nosotras podamos desplegar alas y volar. La
+                    mariposa 🦋 con su metamorfosis se convirtió en el ícono que
+                    representa este proceso. Es nuestro objetivo, que cada vida
+                    que ha de pasar por este lugar se vaya con herramientas,
+                    conocimientos y saberes que además de ser útiles en lo
+                    académico lo sean para la vida, siendo así un aprendizaje
+                    significativo.
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="presentacion mt-3">
               <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -422,79 +459,94 @@ const HomeScreen = () => {
               <h1>Contacto</h1>
             </div>
           </div>
-          <div className="form-contacto mt-5 mb-5">
-            <div className="row justify-content-center">
-              <div className="col-10 col-md-8">
-                <form
-                  action="https://formsubmit.co/nikokart13@gmail.com"
-                  method="POST"
-                >
-                  <div>
-                    <label for="inputNombre" class="form-label text-light mb-3">
-                      Nombre
-                    </label>
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="nombre"
-                      id="inputNombre"
-                      placeholder="Ingresá tu nombre"
-                      pattern="[A-Z a-z]{3,30}"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      for="inputApellido"
-                      class="form-label text-light mt-2"
-                    >
-                      Apellido
-                    </label>
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="apellido"
-                      id="inputApellido"
-                      placeholder="Ingresá tu apellido"
-                      pattern="[A-Z a-z]{3,30}"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label for="inputEmail" class="form-label text-light mt-2">
-                      E-mail
-                    </label>
-                    <input
-                      class="form-control"
-                      type="email"
-                      name="email"
-                      id="inputEmail"
-                      placeholder="Ingresá tu E-mail"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      for="inputTextArea"
-                      class="form-label text-light mt-2"
-                    >
-                      Mensaje
-                    </label>
-                    <textarea
-                      class="form-control"
-                      id="inputTextArea"
-                      rows="3"
-                      placeholder="Ingresá tu mensaje"
-                      pattern="[A-Z a-z]{3,500}"
-                      required
-                    ></textarea>
-                  </div>
-                  <div>
-                    <button class="mt-3 float-end btn btn-info text-light">
-                      Enviar
-                    </button>
-                  </div>
-                </form>
+          <div className="contacto1">
+            <div className="form-contacto mt-5 mb-5">
+              <div className="row justify-content-center">
+                <div className="col-md-12 col-lg-9">
+                  <form
+                    action="https://formsubmit.co/nikokart13@gmail.com"
+                    method="POST"
+                  >
+                    <div>
+                      <label
+                        for="inputNombre"
+                        class="form-label text-light mb-3"
+                      >
+                        Nombre
+                      </label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="nombre"
+                        id="inputNombre"
+                        placeholder="Ingresá tu nombre"
+                        pattern="[A-Z a-z]{3,30}"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="inputApellido"
+                        class="form-label text-light mt-2"
+                      >
+                        Apellido
+                      </label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="apellido"
+                        id="inputApellido"
+                        placeholder="Ingresá tu apellido"
+                        pattern="[A-Z a-z]{3,30}"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="inputEmail"
+                        class="form-label text-light mt-2"
+                      >
+                        E-mail
+                      </label>
+                      <input
+                        class="form-control"
+                        type="email"
+                        name="email"
+                        id="inputEmail"
+                        placeholder="Ingresá tu E-mail"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="inputTextArea"
+                        class="form-label text-light mt-2"
+                      >
+                        Mensaje
+                      </label>
+                      <textarea
+                        class="form-control"
+                        id="inputTextArea"
+                        rows="3"
+                        placeholder="Ingresá tu mensaje"
+                        pattern="[A-Z a-z]{3,500}"
+                        required
+                      ></textarea>
+                    </div>
+                    <div>
+                      <button class="mt-3 float-end btn btn-info text-light">
+                        Enviar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="info-contacto">
+            <div className="row">
+              <div className="col-md-6 col-lg-6">
+                {/* <Map googleMapURL={mapURL} containerElement /> */}
               </div>
             </div>
           </div>

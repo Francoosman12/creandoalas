@@ -4,7 +4,7 @@ import "../css/footer.css";
 const FooterApp = () => {
   return (
     <footer className="footer justify-content-center fondo-footer">
-      <section className="row container">
+      <section className="row container-footer">
         <div className="col-sm-12 col-md-4 col-responsive">
           <img
             src="https://i.ibb.co/T1VX46R/logo-creando-alas-modified.png"
@@ -33,10 +33,9 @@ const FooterApp = () => {
             </a>
           </div>
         </div>
-        <div className="copyright col-sm-12 text-white d-flex justify-content-center col-responsive">
+        <div className="copyright col-sm-12 text-white d-flex justify-content-center col-responsive mt-3">
           <div id="copyright">
-            &copy; 2022 Página creada por Sabor En Código - Todos los derechos
-            reservados.
+            &copy; 2022 Página creada por DevOs - Todos los derechos reservados.
           </div>
         </div>
       </section>
