@@ -522,7 +522,7 @@ const HomeScreen = () => {
                         for="inputTextArea"
                         class="form-label text-light mt-2"
                       >
-                        Mensaje
+                        Escribir mensaje
                       </label>
                       <textarea
                         class="form-control"
