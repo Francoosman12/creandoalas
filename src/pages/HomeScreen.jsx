@@ -1,6 +1,6 @@
 import "../css/home.css";
-// import Map from "../js/Map";
-import MapKey from "../js/MapKey";
+import Map from "../components/Map";
+// import MapKey from "../js/MapKey";
 
 // const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${MapKey.mapsKey}`;
 
@@ -459,10 +459,11 @@ const HomeScreen = () => {
               <h1>Contacto</h1>
             </div>
           </div>
-          <div className="contacto1">
-            <div className="form-contacto mt-5 mb-5">
+
+          <div className="contacto1 ">
+            <div className="form-contacto mt-5 mb-5 w-100">
               <div className="row justify-content-center">
-                <div className="col-md-12 col-lg-9">
+                <div className="col-lg-6 col-md-8 col-10">
                   <form
                     action="https://formsubmit.co/nikokart13@gmail.com"
                     method="POST"
@@ -545,8 +546,8 @@ const HomeScreen = () => {
           </div>
           <div className="info-contacto">
             <div className="row">
-              <div className="col-md-6 col-lg-6">
-                {/* <Map googleMapURL={mapURL} containerElement /> */}
+              <div className="col-12">
+                <Map />
               </div>
             </div>
           </div>

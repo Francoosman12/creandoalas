@@ -1,1 +1,1 @@
-export default { mapsKey: "AIzaSyCwkx8o2hBJgb3riMoypiR2jT0Tl7bq460" };
+export default { apiKey: "AIzaSyDUzYklxBrA5JHYlcsX0KACSnlqzS34d2s" };
