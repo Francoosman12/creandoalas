@@ -9,7 +9,7 @@ const Map = () => {
       <GoogleMaps
         apiKey={`${MapKey.apiKey}`}
         style={{ height: "600px", width: "100%" }}
-        zoom={15}
+        zoom={16}
         center={{ lat: -26.831712915403326, lng: -65.20454648224023 }}
         markers={{ lat: -26.831712915403326, lng: -65.20454648224023 }} //optional
       />
